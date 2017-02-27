@@ -169,25 +169,25 @@
                 <h2 class="text-center border-center">Book Appoint</h2>
                 <div class="col-lg-offset-1  col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <form class="form-horizontal" action="">
+                        <form class="form-horizontal" action="" method="post">
                             <div class="form-group text-sm-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <label for="name">Your Name</label>
                                 <input class="form-control" id="name" type="text" name="name" placeholder="Your Name" />
                             </div>
                             <div class="form-group text-sm-center col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="float:right;">
-                                <label for="date">Date</label>
-                                <input class="form-control" id="date" type="datetime" name="date" placeholder="Apointment Date" />
+                                <label for="date">Appointment Date</label>
+                                <input class="form-control" id="date" type="date" name="date" />
                             </div>
                             <div class="form-group text-sm-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <label for="email">Email</label>
-                                <input class="form-control" id="email" type="text" name="email" placeholder="Your Name" />
+                                <input class="form-control" id="email" type="text" name="email" placeholder="Email Address" />
                             </div>
                             <div class="form-group text-sm-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <label for="phone">Your Name</label>
-                                <input class="form-control" id="phone" type="text" name="phone" placeholder="Your Name" />
+                                <label for="phone">Phone Number</label>
+                                <input class="form-control" id="phone" type="text" name="phone" placeholder="Phone Number" />
                             </div>
                             <div class="form-group text-sm-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <label for="phone" class="sr-only">Your Name</label>
+                                <label for="phone" class="sr-only">Submit</label>
                                 <button class="btn btn-orange" type="submit" name="submit" id="submit" style="width:100%;">BOOK YOUR APPOINTMENT NOW</button>
                             </div>
                         </form>
@@ -316,17 +316,17 @@
 
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 news-letter">
                         <h3 class="text-sm-center">SIGNUP NEWSLETTERS</h3>
-                        <form class="form-horizontal">
+                        <form method='post' action='' class="form-horizontal">
                             <div class="form-group">
-                                <label class="sr-only">Type Your Name</label>
+                                <label class="sr-only">Your Name</label>
                                 <input class="form-control" name="name" type="text" placeholder="Your Name"/>
                             </div>
                             <div class="form-group">
-                                <label class="sr-only">Type Your Name</label>
-                                <input class="form-control" name="email" type="email" placeholder="Enter your Email Address"/>
+                                <label class="sr-only">Email Address</label>
+                                <input class="form-control" name="email" type="email" placeholder="Email Address"/>
                             </div>
                             <div class="form-group">
-                                <label class="sr-only">Type Your Name</label>
+                                <label class="sr-only">Submit</label>
                                 <button type="submit" class="form-control btn btn-blue">SUBMIT</button>
                             </div>
                         </form>
